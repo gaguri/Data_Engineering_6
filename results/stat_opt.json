@@ -1,0 +1,104 @@
+[
+ {
+  "column_name": "notes",
+  "memory_abs": 197909,
+  "memory_per": 42.3437,
+  "dtype": "category"
+ },
+ {
+  "column_name": "title",
+  "memory_abs": 96508,
+  "memory_per": 20.6484,
+  "dtype": "object"
+ },
+ {
+  "column_name": "video_url",
+  "memory_abs": 49091,
+  "memory_per": 10.5034,
+  "dtype": "category"
+ },
+ {
+  "column_name": "artist_name",
+  "memory_abs": 42145,
+  "memory_per": 9.0171,
+  "dtype": "category"
+ },
+ {
+  "column_name": "label_name",
+  "memory_abs": 28420,
+  "memory_per": 6.0807,
+  "dtype": "category"
+ },
+ {
+  "column_name": "company_name",
+  "memory_abs": 16925,
+  "memory_per": 3.6213,
+  "dtype": "category"
+ },
+ {
+  "column_name": "id",
+  "memory_abs": 4683,
+  "memory_per": 1.0021,
+  "dtype": "uint32"
+ },
+ {
+  "column_name": "release_id",
+  "memory_abs": 4683,
+  "memory_per": 1.0021,
+  "dtype": "uint32"
+ },
+ {
+  "column_name": "artist_id",
+  "memory_abs": 4683,
+  "memory_per": 1.0021,
+  "dtype": "uint32"
+ },
+ {
+  "column_name": "label_id",
+  "memory_abs": 4683,
+  "memory_per": 1.0021,
+  "dtype": "uint32"
+ },
+ {
+  "column_name": "release_date",
+  "memory_abs": 4683,
+  "memory_per": 1.0021,
+  "dtype": "float32"
+ },
+ {
+  "column_name": "master_id",
+  "memory_abs": 4683,
+  "memory_per": 1.0021,
+  "dtype": "float32"
+ },
+ {
+  "column_name": "style",
+  "memory_abs": 2399,
+  "memory_per": 0.5133,
+  "dtype": "category"
+ },
+ {
+  "column_name": "country",
+  "memory_abs": 2366,
+  "memory_per": 0.5064,
+  "dtype": "category"
+ },
+ {
+  "column_name": "format",
+  "memory_abs": 1175,
+  "memory_per": 0.2514,
+  "dtype": "category"
+ },
+ {
+  "column_name": "genre",
+  "memory_abs": 1172,
+  "memory_per": 0.2509,
+  "dtype": "category"
+ },
+ {
+  "column_name": "status",
+  "memory_abs": 1171,
+  "memory_per": 0.2506,
+  "dtype": "category"
+ }
+]
