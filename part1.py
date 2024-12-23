@@ -2,9 +2,9 @@ import pandas as pd
 import json
 import os
 
-file_path = '/root/lab6/file_lab6.csv'
-opt_file_path = '/root/lab6/opt_file_lab6.csv'
-new_file_path = '/root/lab6/new_file_lab6.csv'
+file_path = 'file_lab6.csv'
+opt_file_path = 'opt_file_lab6.csv'
+new_file_path = 'new_file_lab6.csv'
 
 def read_file(file_name):
     return pd.read_csv(file_name)
@@ -96,7 +96,7 @@ file_size_on_disk(file_path=file_path)
 print(f'Размер DataFrame в памяти {mem_usage(pandas_obj=data)}')
 stat_no_opt = get_memory_stat_by_column(df=data)
 
-with open('/root/lab6/stat_no_opt.json', 'w', encoding='utf-8') as file:
+with open('./results/stat_no_opt.json', 'w', encoding='utf-8') as file:
     json.dump(stat_no_opt, file, ensure_ascii=False, indent=1)
 
 opt_data = data.copy()
@@ -114,7 +114,7 @@ file_size_on_disk(file_path=opt_file_path)
 print(f'Размер DataFrame в памяти {mem_usage(pandas_obj=opt_data)}')
 stat_opt = get_memory_stat_by_column(df=opt_data)
 
-with open('/root/lab6/stat_opt.json', 'w', encoding='utf-8') as file:
+with open('./results/stat_opt.json', 'w', encoding='utf-8') as file:
     json.dump(stat_opt, file, ensure_ascii=False, indent=1)
 
 need_column = dict()
